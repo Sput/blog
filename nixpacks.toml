@@ -1,5 +1,5 @@
 [phases.setup]
-nixPkgs = ["pkgs.hugoExtended"]
+nixPkgs = ["nixpkgs.hugo", "nixpkgs.hugoExtended"]
 
 [phases.install]
 cmds = []
