@@ -1,5 +1,5 @@
 # Stage 1: Build Hugo site
-FROM klakegg/hugo:ext AS builder
+FROM klakegg/hugo:ext-latest AS builder
 WORKDIR /src
 COPY . .
 RUN hugo --minify
