@@ -1,5 +1,5 @@
 # Stage 1: Build Hugo site
-FROM hugomods/hugo:ext-alpine AS builder
+FROM hugomods/hugo:ext-debian AS builder
 WORKDIR /src
 COPY . .
 RUN hugo --minify
